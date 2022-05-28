@@ -1,0 +1,21 @@
+.block {
+  border: 1px solid #efefef;
+  box-sizing: border-box;
+}
+
+.block + .active {
+  background: #000;
+}
+
+.layout {
+  position: relative;
+}
+
+.info {
+  position: absolute;
+  padding: 10px;
+  right: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 99;
+}
