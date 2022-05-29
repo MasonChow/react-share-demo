@@ -32,5 +32,5 @@ jobs:
     - run: npm i
     - run: PUBLIC_URL=${GITHUB_REPOSITORY} npm run build
     - run: cp build/index.html build/404.html
-    - run: npm run deploy -- -u "github-actions-bot <support+actions@github.com>"
+    - run: npm run deploy
  
