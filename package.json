@@ -19,7 +19,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "lint-staged": "lint-staged",
-    "deploy": "PUBLIC_URL=/react-share-demo npm run build && gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "deploy:local": "bash local-deploy.sh"
   },
   "eslintConfig": {
     "extends": [
