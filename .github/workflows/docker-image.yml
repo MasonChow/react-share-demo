@@ -26,11 +26,11 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-      env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
-    - run: git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
     - run: npm i
     - run: PUBLIC_URL=${GITHUB_REPOSITORY} npm run build
     - run: cp build/index.html build/404.html
-    - run: npm run deploy
- 
+    - run: |
+        git remote set-url origin https://git:${DEPLOY_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+        npx gh-pages -d build -u "github-actions-bot <support+actions@github.com>"
+      env:
+        DEPLOY_TOKEN: ${{ secrets.TOKEN }}
