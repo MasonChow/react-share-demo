@@ -27,7 +27,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm i
-    - run: PUBLIC_URL=${GITHUB_REPOSITORY} npm run build
+    - run: PUBLIC_URL=/react-share-demo npm run build
     - run: cp build/index.html build/404.html
     - run: |
         git remote set-url origin https://git:${DEPLOY_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
