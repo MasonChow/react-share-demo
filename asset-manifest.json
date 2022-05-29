@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-share-demo/static/css/main.ac30cd97.css",
-    "main.js": "/react-share-demo/static/js/main.30eaa7c4.js",
-    "index.html": "/react-share-demo/index.html",
-    "main.ac30cd97.css.map": "/react-share-demo/static/css/main.ac30cd97.css.map",
-    "main.30eaa7c4.js.map": "/react-share-demo/static/js/main.30eaa7c4.js.map"
+    "main.css": "MasonChow/react-share-demo/static/css/main.ac30cd97.css",
+    "main.js": "MasonChow/react-share-demo/static/js/main.38fd87f5.js",
+    "index.html": "MasonChow/react-share-demo/index.html",
+    "main.ac30cd97.css.map": "MasonChow/react-share-demo/static/css/main.ac30cd97.css.map",
+    "main.38fd87f5.js.map": "MasonChow/react-share-demo/static/js/main.38fd87f5.js.map"
   },
   "entrypoints": [
     "static/css/main.ac30cd97.css",
-    "static/js/main.30eaa7c4.js"
+    "static/js/main.38fd87f5.js"
   ]
 }
