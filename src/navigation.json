@@ -1,0 +1,11 @@
+[
+  {
+    "title": "贪食蛇游戏",
+    "basePath": "/snake",
+    "baseParams": {
+      "size": 30,
+      "speed": 30
+    },
+    "children": ["demo1", "demo2", "demo3", "demo4", "demo5"]
+  }
+]
