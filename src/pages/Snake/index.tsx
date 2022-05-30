@@ -14,7 +14,7 @@ const search = new URLSearchParams(window.location.search);
 export const snake = new Snake({
   width: 1200,
   height: 600,
-  size: Number(search.get('size') || 10),
+  size: Number(search.get('size') || 30),
   speed: Number(search.get('speed') || 30),
 });
 
